@@ -1,3 +1,13 @@
-for i in range (0,1000000000):
-    print(i)
-print('Hallo')
+print("Ungerade  |  Gerade")
+print("---------------------")
+
+for num in range(1, 10000000):
+    if num % 2 == 1:
+
+        print(f"{num:^9} |", end=" ")
+    else:
+
+        print(f"{num:^7} |", end=" ")
+
+    if num % 2 == 0:
+        print()
